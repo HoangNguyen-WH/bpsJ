@@ -4,7 +4,7 @@ plugins {
     id 'io.spring.dependency-management' version '1.1.7'
 }
 
-group = 'wu.huang'
+group = 'vn.fss'
 version = '0.0.1-SNAPSHOT'
 
 java {
@@ -31,12 +31,6 @@ dependencies {
     // Lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
-
-    // gRPC
-    implementation 'net.devh:grpc-spring-boot-starter:3.1.0.RELEASE'
-
-    // graphQL
-    implementation 'org.springframework.boot:spring-boot-starter-graphql'
 
     // log4j2
     implementation 'org.springframework.boot:spring-boot-starter-log4j2'
